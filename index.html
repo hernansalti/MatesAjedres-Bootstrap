@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mates Ajedrez</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- encabezado -->
+    <header>
+        <img class="logo" src="img/logo1.jpeg" alt="logo">
+        <div>
+            <h1>Mates Ajedrez</h1>
+            <h2>Ja, qué mate!</h2>
+        </div>   
+        <p class="sesion"><a href="pages/ingreso.html" class="decoracionMenu">Crear Cuenta / Iniciar Sesión</a></p>
+    </header>
+    <!-- menu -->        
+    <nav>
+        <!-- estilos flex -->
+        <ul class="flex-menu">
+            <li><a href="index.html" class="decoracionMenu">Home</a></li>
+            <li>
+                <a href="pages/productos.html"class="decoracionMenu">Productos▼</a>
+                <ul class="desplegable">
+                    <li><a href="pages/Productos/mates.html" class="decoracionMenu">Mates</a></li>
+                    <li><a href="pages/Productos/termos.html" class="decoracionMenu">Termos</a></li>
+                    <li><a href="pages/Productos/bazar.html" class="decoracionMenu">Bazar</a></li>
+                    <li><a href="pages/Productos/deco.html" class="decoracionMenu">Deco</a></li>
+                </ul>
+            </li>
+            <li><a href="pages/nosotros.html" class="decoracionMenu">Nosotros</a></li>
+            <li><a href="pages/un_buen_mate.html" class="decoracionMenu">Un buen mate</a></li>
+            <li><a href="pages/contacto.html" class="decoracionMenu">Contacto</a></li>
+        </ul>
+    </nav>
+    <!-- cuerpo -->      
+    <section class="principal">  
+        <article class="principal_individuo"><!--aca iria un carrousel mas adelante-->
+            <img class="imagen1" src="img/carrousell1.png" alt="Carrousel de imagenes">
+            <div class="individuo-flex">
+                <h3>Conocé las novedades de este mes!</h3>
+                <p>Entrá y descubrí todos los productos nuevos que tenemos para vos.</p>            
+            </div>
+        </article>
+        <article class="principal__mayoristas">
+            <div class="mayorista-flex">
+                <h3>¿Querés vender nuestros productos?</h3>
+                <p>Sólo tenes que ingresar a nuestra sección mayorista y elegir lo que querés!</p> 
+            </div>
+            <img class="imagen2" src="img/fotomayorista.jpeg" alt="Imagen de sets materos">
+        </article>
+    </section>
+    <!-- pie de pagina -->
+    <footer>
+        <h4 class="comentarioFooter">Si querés conocer todos los productos que traemos para vos diariamente, seguinos en Instagram!</h4>   
+        <a href="https://www.instagram.com/somos.ajedrez/" target="_blank"><img class="logoig" src="img/Logo-instagram.png" alt="Logo de instagram"></a>
+    </footer> 
+</body>
+</html>
